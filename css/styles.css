@@ -192,7 +192,7 @@ header {box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     border-radius: 4px;
     background: var(--studio);
     
-    background-size: 60px 64px;
+    background-size: 70px 70px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -344,11 +344,14 @@ align-items: baseline;}
 
 .social-link.footer {
     background-color: rgba(255, 255, 255, 0.1);
+    
 }
 .social-link.footer:hover, .social-link.footer:focus {
     background-color: #31D0AA;
     color: var(--studio);
 }
+.social-icon.footer {height: 24px;
+    width: 24px;}
 
 /* ___________________________________portfolio main____________________________*/
 .portfolio-section {
